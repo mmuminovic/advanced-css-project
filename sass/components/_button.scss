@@ -22,6 +22,12 @@
     padding: 1.5rem 4rem;
   }
 
+  &--green {
+    background-color: $color-primary-light;
+    color: $color-white;
+    padding: 1.5rem 4rem;
+  }
+
   &::after {
     content: "";
     display: inline-block;
@@ -37,6 +43,10 @@
 
   &--white::after {
     background-color: $color-white;
+  }
+
+  &--green::after {
+    background-color: $color-primary-light;
   }
 
   &:hover::after {
